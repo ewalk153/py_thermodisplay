@@ -12,5 +12,17 @@ Written in python. Access to web server is protected with a shared secret.
 ## Deployment
 1. Deploy the app by copying the .py files from this project to the device:
 ```
-for f in *.py; do ampy put $f; done
+make deploy
+```
+
+## Running a script locally
+Changes can be tested without running the whole deploy process. Simply run;
+
+```
+make run
+```
+
+or
+```
+ampy run main.py
 ```
