@@ -7,7 +7,8 @@ Written in python. Access to web server is protected with a shared secret.
 ## Setup
 
 1. Copy example_settings.py to settings.py
-2. Install [ampy](https://github.com/scientifichackers/ampy) to easily deploy files to the Micropython embedded device. Configure ~/.ampy with your device location
+2. Install [ampy](https://github.com/scientifichackers/ampy) to easily deploy files to the Micropython embedded device.
+[Configure .ampy](https://github.com/scientifichackers/ampy#configuration) with your device location.
 
 ## Deployment
 1. Deploy the app by copying the .py files from this project to the device:
